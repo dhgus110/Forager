@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+
+Image/
+Sound/
+Debug/
+Release/
+x64/

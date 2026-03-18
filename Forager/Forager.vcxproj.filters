@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00 MainGame">
+      <UniqueIdentifier>{4be56755-97fd-4b3f-bbf9-097e73b199db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers">
+      <UniqueIdentifier>{819bc996-4f3d-4dea-9722-6060d0640fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects">
+      <UniqueIdentifier>{c74befb8-8790-4a7f-ab46-a7b5801f9e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Function">
+      <UniqueIdentifier>{4cfb171f-3e22-4461-a317-718e7162da79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Util">
+      <UniqueIdentifier>{67f9755f-b5b2-42bc-9e0c-acc2dff3e3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\01 Collision Mgr">
+      <UniqueIdentifier>{4fba296e-0af9-4724-9ce7-8b0b0b42ed35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\02 Obj Mgr">
+      <UniqueIdentifier>{d558fd20-3dd0-48ef-b7db-faf32bb6eae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\03 UI Mgr">
+      <UniqueIdentifier>{a902c454-c9c1-4a5e-8c5e-82097536809c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\04 Line Mgr">
+      <UniqueIdentifier>{950595e5-986a-45c8-bf20-25f8706643f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\05 Key Mgr">
+      <UniqueIdentifier>{be1eefec-1512-431c-a221-dc429990f4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\06 Scroll Mgr">
+      <UniqueIdentifier>{906dd433-d70c-4c33-83ee-f9ccf93d71a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\07 Scene Mgr">
+      <UniqueIdentifier>{ea6437f6-3c15-4d73-b93b-6a3085ccb47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\08 Bmp Mgr">
+      <UniqueIdentifier>{79b0c5e2-0d91-4d40-bc48-c9125df447a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\01 Player">
+      <UniqueIdentifier>{a05eb9de-7f6e-41c7-b0df-88e3fae2dbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\05 Structure">
+      <UniqueIdentifier>{cf9a46df-b46a-4427-a489-e5746fb9f1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\00 Mgr">
+      <UniqueIdentifier>{da6a2ee6-01a6-4b8a-8da9-ea7d198fbafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\08 Bmp Mgr\MyBmp">
+      <UniqueIdentifier>{7c81db49-8128-4a6a-8c72-beb9ce86fb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\02 Equip">
+      <UniqueIdentifier>{bddc33a0-c601-4900-8ea4-115544c51e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\02 Equip\Weapon">
+      <UniqueIdentifier>{686893e6-ca25-4c8c-bcb5-edb592e05115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\10 User Info Mgr">
+      <UniqueIdentifier>{d8b0633d-0e44-49a1-900a-6cfefbd265ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\03 Monsters">
+      <UniqueIdentifier>{498d0718-39f4-4f5b-8989-ac1c9e943c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\07 Mouse">
+      <UniqueIdentifier>{3fe7e4ee-018b-4f81-be27-66d4a92f1e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\04 Map">
+      <UniqueIdentifier>{57a63f15-a80f-408e-8d0f-60168975f957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\04 Map\00 Resources">
+      <UniqueIdentifier>{3efe1f7e-cdfc-45b3-b451-6a5dac82ef83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\11 Spawner">
+      <UniqueIdentifier>{9f93edeb-d2fe-4595-9362-bae0a1539629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\04 Map\01 Drop Item">
+      <UniqueIdentifier>{7a113399-a6c1-4bcb-a0c6-2ab2f33a50d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI">
+      <UniqueIdentifier>{2ed7a43e-48ca-41b3-8c0e-4bd124215c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\00 UI">
+      <UniqueIdentifier>{db7d5c2d-0d4c-41c4-b3c9-c562f2d1ffdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene">
+      <UniqueIdentifier>{1f62f667-0ccd-4109-a887-b61380e3926a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\01 HpBar">
+      <UniqueIdentifier>{3aeb139a-8c17-483f-bf25-8a87e44ba470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\01 HpBar\00 Player">
+      <UniqueIdentifier>{a2b97a5a-a71a-40e7-8096-aa125ed1436e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\01 HpBar\01 Common">
+      <UniqueIdentifier>{bf9a5f79-e6dc-4663-ba76-0f793dd424ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\02 ExpBar">
+      <UniqueIdentifier>{dfa69dae-762e-49a8-bca0-505282f6b35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes">
+      <UniqueIdentifier>{6e806f91-d6a4-4b99-be21-07cdbb3ec55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes\00 Scene">
+      <UniqueIdentifier>{e77e25b4-53ed-4bfb-9d6d-cc66d707de9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes\01 Logo">
+      <UniqueIdentifier>{6373a616-d021-4136-85bc-9a4ef9a11d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes\02 MainMenu">
+      <UniqueIdentifier>{ebb3de0e-0f9e-4012-ae72-388ce67090ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes\03 Stage">
+      <UniqueIdentifier>{7dae717e-c8d8-47c7-81fc-22a63f031656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Scenes\04 Edit">
+      <UniqueIdentifier>{3cdc2bbf-dbd5-405a-abfb-f15e3e728d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\03 Coin">
+      <UniqueIdentifier>{80fa3329-8e94-45e5-aac5-a3ef1ce732a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu">
+      <UniqueIdentifier>{47d436f6-72fd-4efe-8a4c-bba147748280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\00 MenuTap">
+      <UniqueIdentifier>{9b3f27bb-7a82-4095-b685-a34bd7e6f675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap">
+      <UniqueIdentifier>{fa1185d1-9e97-4a6b-a0ee-8bd4959caa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\02 ITemTap">
+      <UniqueIdentifier>{e0db0759-e62d-4cba-b38a-42ce2460d944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\03 ConstructTap">
+      <UniqueIdentifier>{0a09d755-8325-4f40-b761-741a60b5f5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\04 IslandTap">
+      <UniqueIdentifier>{c256a36d-d390-4136-9287-ac44aa47691a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\05 SettingTap">
+      <UniqueIdentifier>{c9e7ca17-74eb-440a-a38d-b019b6c90c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\00 WeaponInven">
+      <UniqueIdentifier>{93638b4e-e719-4783-a7e7-bec2aae68987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\01 AccessoryInven">
+      <UniqueIdentifier>{a7fab4cc-ec9b-4876-92a0-b5a8f2f0df75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill">
+      <UniqueIdentifier>{b5dd9e66-caed-4f5e-a077-9a208ab84cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\03 Word">
+      <UniqueIdentifier>{43a46ce5-9222-403c-8c89-b67a78c291cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\00 Skill Btn in Menu">
+      <UniqueIdentifier>{5f2f29fe-dd60-44a2-aae1-86ebe775e054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\01 Skill Btn in Skill Window">
+      <UniqueIdentifier>{94b75a7e-2b8e-47d7-8cc5-e14193693fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\12. SoundMgr">
+      <UniqueIdentifier>{0b95a6c1-68be-444a-8859-36575309422a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\00 Obj">
+      <UniqueIdentifier>{9af15b51-68f2-47bb-9507-e915539e0590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\05 Structure\00 Industry">
+      <UniqueIdentifier>{0571a20d-91cb-4a27-aa59-bcb9ec5b6681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\05 Structure\02 Economy">
+      <UniqueIdentifier>{dae8d043-f803-4322-b54a-30aab06581fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\05 Structure\01 Farming">
+      <UniqueIdentifier>{27779213-6b02-4d48-bb52-341fbdca1321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\05 Interaction">
+      <UniqueIdentifier>{50ab2a88-66e8-4003-883d-b70e6af9ac8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\04 Menu\04 IslandTap\00 Flag">
+      <UniqueIdentifier>{8ac47e0d-7d7a-4bbd-8e35-a9de196a26e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 Objects\03 Monsters\00 Boss">
+      <UniqueIdentifier>{e09b53da-3657-41a3-b3c0-838d708d7f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\01 HpBar\02 Boss">
+      <UniqueIdentifier>{62b4f86f-f3db-45d2-978e-58a312289105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\13 TextMgr">
+      <UniqueIdentifier>{ac48da5f-51d3-4164-a3c3-0ce14b3b3e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\09 Tile Mgr">
+      <UniqueIdentifier>{0338408c-4559-42c2-9fac-9e1b00cddc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Managers\09 Tile Mgr\Tile">
+      <UniqueIdentifier>{64ec1af0-aab1-4193-911a-f759913b4103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\06 Trade WIndow">
+      <UniqueIdentifier>{a58c137a-c316-40fd-9469-91dc3059bf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\06 Trade WIndow\00 Trade">
+      <UniqueIdentifier>{a625ab17-674a-4aff-980f-418d3a524f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\06 Trade WIndow\02 Forge Trade">
+      <UniqueIdentifier>{d8afa21b-933b-4fea-b74f-9f641ca05d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\06 Trade WIndow\01 Furnace Trade">
+      <UniqueIdentifier>{ee5e83d3-083e-4e56-b339-5071cc5323d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 UI\01 GameScene\06 Trade WIndow\04 Market Trade">
+      <UniqueIdentifier>{a34ac0d4-54ce-4eb3-b6ea-a52bce104e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStruct.h">
+      <Filter>06 Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>06 Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>06 Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension.h">
+      <Filter>06 Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CAbstractFactory.h">
+      <Filter>06 Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CBmpMgr.h">
+      <Filter>01 Managers\08 Bmp Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>01 Managers\01 Collision Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CManager.h">
+      <Filter>01 Managers\00 Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>01 Managers\05 Key Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>02 Objects\00 Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjMgr.h">
+      <Filter>01 Managers\02 Obj Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>04 Scenes\00 Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>01 Managers\07 Scene Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollMgr.h">
+      <Filter>01 Managers\06 Scroll Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMgr.h">
+      <Filter>01 Managers\09 Tile Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>05 UI\00 UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>01 Managers\03 UI Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>00 MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyBmp.h">
+      <Filter>01 Managers\08 Bmp Mgr\MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>01 Managers\09 Tile Mgr\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>02 Objects\01 Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouse.h">
+      <Filter>02 Objects\07 Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage.h">
+      <Filter>04 Scenes\03 Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>02 Objects\02 Equip\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CEdit.h">
+      <Filter>04 Scenes\04 Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserInfoMgr.h">
+      <Filter>01 Managers\10 User Info Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResources.h">
+      <Filter>02 Objects\04 Map\00 Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner.h">
+      <Filter>01 Managers\11 Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="CDropItem.h">
+      <Filter>02 Objects\04 Map\01 Drop Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonHpBar.h">
+      <Filter>05 UI\01 GameScene\01 HpBar\01 Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Forager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHpBar.h">
+      <Filter>05 UI\01 GameScene\01 HpBar\00 Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CExpBar.h">
+      <Filter>05 UI\01 GameScene\02 ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoin.h">
+      <Filter>05 UI\01 GameScene\03 Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuTap.h">
+      <Filter>05 UI\01 GameScene\04 Menu\00 MenuTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingMenu.h">
+      <Filter>05 UI\01 GameScene\04 Menu\05 SettingTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubMenuButton.h">
+      <Filter>05 UI\01 GameScene\04 Menu\00 MenuTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemInventory.h">
+      <Filter>05 UI\01 GameScene\04 Menu\02 ITemTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemToolTip.h">
+      <Filter>05 UI\01 GameScene\04 Menu\02 ITemTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CAccessoryInven.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\01 AccessoryInven</Filter>
+    </ClInclude>
+    <ClInclude Include="CAccessorySlot.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\01 AccessoryInven</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponInventory.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\00 WeaponInven</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponSlot.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\00 WeaponInven</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkillButton.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\00 Skill Btn in Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CWordIsland.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\03 Word</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkillButtons.h">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\01 Skill Btn in Skill Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>01 Managers\12. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainStructure.h">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CSubStructure.h">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildingPreview.h">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CForge.h">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClInclude>
+    <ClInclude Include="CFurnace.h">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClInclude>
+    <ClInclude Include="CSewingStation.h">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClInclude>
+    <ClInclude Include="CBridge.h">
+      <Filter>02 Objects\05 Structure\01 Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="CFishTrap.h">
+      <Filter>02 Objects\05 Structure\01 Farming</Filter>
+    </ClInclude>
+    <ClInclude Include="CBank.h">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLighthouse.h">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarket.h">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlotMachine.h">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CVault.h">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuilding.h">
+      <Filter>02 Objects\05 Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="CInteraction.h">
+      <Filter>05 UI\01 GameScene\05 Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlag.h">
+      <Filter>05 UI\01 GameScene\04 Menu\04 IslandTap\00 Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss.h">
+      <Filter>02 Objects\03 Monsters\00 Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossHpBar.h">
+      <Filter>05 UI\01 GameScene\01 HpBar\02 Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextManager.h">
+      <Filter>01 Managers\13 TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextRender.h">
+      <Filter>01 Managers\13 TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrade.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CFurnaceTrade.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\01 Furnace Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CForgeTrade.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\02 Forge Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarketTrade.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\04 Market Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTradeSlot.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CTradeTooltip.h">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="CConstructTooltip.h">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainMenu.h">
+      <Filter>04 Scenes\02 MainMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Forager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBmpMgr.cpp">
+      <Filter>01 Managers\08 Bmp Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>01 Managers\01 Collision Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CManager.cpp">
+      <Filter>01 Managers\00 Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>01 Managers\05 Key Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>02 Objects\00 Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjMgr.cpp">
+      <Filter>01 Managers\02 Obj Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>04 Scenes\00 Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>01 Managers\07 Scene Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScrollMgr.cpp">
+      <Filter>01 Managers\06 Scroll Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMgr.cpp">
+      <Filter>01 Managers\09 Tile Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>05 UI\00 UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>01 Managers\03 UI Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>00 MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyBmp.cpp">
+      <Filter>01 Managers\08 Bmp Mgr\MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>01 Managers\09 Tile Mgr\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>02 Objects\01 Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouse.cpp">
+      <Filter>02 Objects\07 Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage.cpp">
+      <Filter>04 Scenes\03 Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>02 Objects\02 Equip\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CEdit.cpp">
+      <Filter>04 Scenes\04 Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserInfoMgr.cpp">
+      <Filter>01 Managers\10 User Info Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResources.cpp">
+      <Filter>02 Objects\04 Map\00 Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner.cpp">
+      <Filter>01 Managers\11 Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="CDropItem.cpp">
+      <Filter>02 Objects\04 Map\01 Drop Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonHpBar.cpp">
+      <Filter>05 UI\01 GameScene\01 HpBar\01 Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHpBar.cpp">
+      <Filter>05 UI\01 GameScene\01 HpBar\00 Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CExpBar.cpp">
+      <Filter>05 UI\01 GameScene\02 ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoin.cpp">
+      <Filter>05 UI\01 GameScene\03 Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.h">
+      <Filter>06 Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuTap.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\00 MenuTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingMenu.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\05 SettingTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubMenuButton.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\00 MenuTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemInventory.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\02 ITemTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemToolTip.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\02 ITemTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CAccessoryInven.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\01 AccessoryInven</Filter>
+    </ClCompile>
+    <ClCompile Include="CAccessorySlot.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\01 AccessoryInven</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponInventory.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\00 WeaponInven</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponSlot.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\00 WeaponInven</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkillButton.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\00 Skill Btn in Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CWordIsland.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\03 Word</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkillButtons.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\01 EquipTap\02 Skill\01 Skill Btn in Skill Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>01 Managers\12. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainStructure.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CSubStructure.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildingPreview.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CForge.cpp">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClCompile>
+    <ClCompile Include="CFurnace.cpp">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClCompile>
+    <ClCompile Include="CSewingStation.cpp">
+      <Filter>02 Objects\05 Structure\00 Industry</Filter>
+    </ClCompile>
+    <ClCompile Include="CBridge.cpp">
+      <Filter>02 Objects\05 Structure\01 Farming</Filter>
+    </ClCompile>
+    <ClCompile Include="CFishTrap.cpp">
+      <Filter>02 Objects\05 Structure\01 Farming</Filter>
+    </ClCompile>
+    <ClCompile Include="CBank.cpp">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLighthouse.cpp">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarket.cpp">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlotMachine.cpp">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CVault.cpp">
+      <Filter>02 Objects\05 Structure\02 Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuilding.cpp">
+      <Filter>02 Objects\05 Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="CInteraction.cpp">
+      <Filter>05 UI\01 GameScene\05 Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlag.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\04 IslandTap\00 Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss.cpp">
+      <Filter>02 Objects\03 Monsters\00 Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossHpBar.cpp">
+      <Filter>05 UI\01 GameScene\01 HpBar\02 Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextManager.cpp">
+      <Filter>01 Managers\13 TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextRender.cpp">
+      <Filter>01 Managers\13 TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrade.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CFurnaceTrade.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\01 Furnace Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CForgeTrade.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\02 Forge Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarketTrade.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\04 Market Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTradeSlot.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CTradeTooltip.cpp">
+      <Filter>05 UI\01 GameScene\06 Trade WIndow\00 Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="CConstructTooltip.cpp">
+      <Filter>05 UI\01 GameScene\04 Menu\03 ConstructTap</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainMenu.cpp">
+      <Filter>04 Scenes\02 MainMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Forager.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Forager.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
